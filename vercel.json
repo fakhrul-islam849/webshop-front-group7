@@ -1,0 +1,15 @@
+{
+  "env": {
+    "NEXT_PUBLIC_REST_API_ENDPOINT": "http://localhost:5023/api",
+    "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "Put your stripe public key here",
+    "NEXT_PUBLIC_GOOGLE_API_KEY": "Put your google api key here"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_REST_API_ENDPOINT": "http://localhost:5023/api",
+      "NEXT_PUBLIC_SITE_URL": "www.drugx.com.bd",
+      "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "Put your stripe public key here",
+      "NEXT_PUBLIC_GOOGLE_API_KEY": "Put your google api key here"
+    }
+  }
+}
