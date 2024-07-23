@@ -12,7 +12,6 @@ type GenericDetailsProps = {
   pdfButton: string;
   pdfLocation: string;
 };
-
 const GenericDetails: React.FC<GenericDetailsProps> = ({
   genericId, pdfButton, pdfLocation
 }) => {
