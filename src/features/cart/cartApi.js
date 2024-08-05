@@ -20,6 +20,7 @@ export const cartApi = apiSlice.injectEndpoints({
         }
       },
     }),
+    
     addToCart: builder.mutation({
       query: (data) => ({
         url: `/cart/add-to-cart`,
@@ -29,6 +30,7 @@ export const cartApi = apiSlice.injectEndpoints({
       invalidatesTags: ['get-carts'],
       transformResponse: (response, meta, arg) => response,
     }),
+
     decrementToCart: builder.mutation({
       query: (data) => ({
         url: `/cart/remove-from-cart`,
@@ -38,6 +40,7 @@ export const cartApi = apiSlice.injectEndpoints({
       invalidatesTags: ['get-carts'],
       transformResponse: (response, meta, arg) => response,
     }),
+
     cartItemRemove: builder.mutation({
       query: (data) => ({
         url: `/cart/cart-item-delete`,
