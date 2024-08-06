@@ -20,7 +20,7 @@ export const cartApi = apiSlice.injectEndpoints({
         }
       },
     }),
-    
+
     addToCart: builder.mutation({
       query: (data) => ({
         url: `/cart/add-to-cart`,
